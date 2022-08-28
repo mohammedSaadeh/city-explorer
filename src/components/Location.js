@@ -64,7 +64,7 @@ class Location extends React.Component{
                 <h5 class="header">lat: {this.state.lat}</h5>
                 <br></br>
                 <br></br>
-                {this.state.mapFlag && <img src={`https://maps.locationiq.com/v3/staticmap?key=pk.d2d5cb3611372e2e9aa72978f1e420e8&center=${this.state.lat},${this.state.lon}`} alt={this.state.display_name}/>}
+                {this.state.mapFlag && <img src={`https://maps.locationiq.com/v3/staticmap?key=pk.d2d5cb3611372e2e9aa72978f1e420e8&center=${this.state.lat},${this.state.lon}`} alt=""/>}
                 {/* {this.state.errFlag && <h4>error:{this.state.error}</h4>} */}
                 {this.state.errFlag && <h4 class="header">error:Unable to geocode</h4>}
             </div>
